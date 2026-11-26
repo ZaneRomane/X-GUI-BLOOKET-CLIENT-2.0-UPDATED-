@@ -2,7 +2,7 @@
     /**
  * @license AGPL-3.0
  * Blooket Cheats
- * Copyright (C) 2023-present 05Konz/Xullys
+ * Copyright (C) 2022-2027 MemzCG/Boykisserfemboypro
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published
  * by the Free Software Foundation, either version 3 of the License, or
@@ -16,8 +16,8 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * Source: https://github.com/Blooket-Council/Blooket-Cheats * EMAIL: 05konz994@gmail.com
- * Source: https://greasyfork.org/en/scripts/553301/versions/new * EMAIL slinkingfox@outlook.com
+ * Source: https://github.com/Blooket-Council/Blooket-Cheats * EMAIL: destructivememz259@gmail.com
+ * Source: https://greasyfork.org/en/scripts/553301/versions/new * EMAIL cheatsblooket4@gmail.com
 
 */
 
@@ -61,10 +61,10 @@
 
   box.innerHTML = `
     <div style="font-size: 1.45em; font-weight: 700; margin-bottom: 8px;">
-      Welcome to X-GUI ✨
+      Welcome to the Memz cient 2.0, made by MemzCG
     </div>
     <div style="font-size: 0.95em; color: #B0A8FF; margin-bottom: 12px; line-height:1.3;">
-      The sleekest, most advanced Blooket client — enjoy the experience!
+      The much more and better blooket cheat, enojoy fucker
     </div>
 
     <label style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:10px;cursor:pointer;font-size:0.9em;user-select:none;">
@@ -87,7 +87,7 @@
           transition: left 0.3s, background 0.3s;
         " id="xgui_knob"></div>
       </div>
-      Don't show again on all Blooket pages 😝
+      holi shiet memzings and zeto weeb fuck ServerEx
     </label>
   `;
 
@@ -98,11 +98,11 @@
   switchEl.onclick = () => {
     checked = !checked;
     if (checked) {
-      switchEl.style.background = "#7F5AF0";
+      switchEl.style.background = "#00FF00";
       knob.style.left = "19px";
       knob.style.background = "#fff";
     } else {
-      switchEl.style.background = "#333";
+      switchEl.style.background = "#555";
       knob.style.left = "1px";
       knob.style.background = "#ccc";
     }
@@ -119,8 +119,8 @@
     color: #FF6B6B;
     transition: 0.2s;
   `;
-  close.onmouseover = () => close.style.color = "#FF3B3B";
-  close.onmouseleave = () => close.style.color = "#FF6B6B";
+  close.onmouseover = () => close.style.color = "#FF0000";
+  close.onmouseleave = () => close.style.color = "#999999";
 
   close.onclick = () => {
     if (checked) {
@@ -144,7 +144,7 @@
 })();
 
     }
-    /* By CryptoDude3 */
+    /* By MemzCG */
     if (window.fetch.call.toString() == 'function call() { [native code] }') {
         const call = window.fetch.call;
         window.fetch.call = function () {
@@ -161,10 +161,10 @@
             left: innerWidth / 2 - 400 + "px",
         });
         const variables = {
-    "--highlight": "#8A2BE2",     // Bright purple highlight (like Blooket’s Tower glow)
+    "--highlight": "#",     // Bright purple highlight (like Blooket’s Tower glow)
     "--highlight2": "#4B0082",    // Deep indigo secondary
-    "--background": "#0B0B1E",    // Dark bluish background
-    "--background2": "#151534",   // Slightly lighter dark layer
+    "--background": "#00FF00",    // Green background
+    "--background2": "#06402B",   // Much dark greenish layer
     "--textColor": "#E0E0FF",     // Soft light text
     "--textColor2": "#9A8CFF",    // Muted purple text
     "--toggleOff": "#2C273F",   // Deep shadowy indigo — off
@@ -318,7 +318,7 @@ setTimeout(roundGamemodeBoxes, 50);
 
         const version = document.createElement("span");
         version.className = classes.version;
-        version.innerText = "SHx xullys - X-GUI " + versionName;
+        version.innerText = "MemzCG Memz-Client- " + versionName;
         guiTopBar.append(version);
 
         const controls = document.createElement("div");
@@ -413,7 +413,7 @@ controls.append(moveControl, minimizeControl, closeControl);
     const SHIFT = 678; // your minimize left-shift
 
     // ---------------------------
-    // COOKIE HELPERS
+    // COOKIE HELPERS FOR NOOBS
     // ---------------------------
     function saveState(state) {
         try {
@@ -453,7 +453,7 @@ controls.append(moveControl, minimizeControl, closeControl);
     }
 
     // ---------------------------
-    // RESTORE AFTER GUI IS BUILT
+    // RESTORE AFTER GUI IS BUILT PROPERLY
     // ---------------------------
     (async function restore() {
 
@@ -808,7 +808,7 @@ dragElement(moveControl, gui);
                             }
                         } catch (e) {
                             console.error(e);
-                            Logs.addLog("Error adding an alert", "red");
+                            Logs.addLog("Error adding the alert", "red");
                         }
                     });
                     return true;
@@ -5147,51 +5147,12 @@ Object.assign(title.style, {
 });
 changelogPage.appendChild(title);
 
-// Versions array (30 versions, highest to lowest)
+// Versions array (3 versions, lowest to highest)
 const versions = [
-  ["Version 6.30x", "ADDED CHEATS AND UPDATED GUI", "null"],
-  ["Version 6.20x", "ADDED MORE CHEATS+++", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 6.10x", "ADDED WHAT YOU ARE READING RN", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 6.00x", "ADDED MOBILE MODE + A BUNCH MORE CRAP", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 5.90x", "ROUNDED CORNERS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 5.80x", "UPDATED XTRAS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 5.70x", "ADDED EXTRAS TAB", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 5.60x", "STOP COMPLAINING (FIXED BUGS)", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 5.50x", "BUGS AND MORE BUGS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 5.40x", "UPDATED VERSIONNAME VARIABLE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 5.30x", "UPDATED BLOOKET BOT", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 5.20x", "ADDED REMOVE ALL TAKEN BLOOKS TO THE GLOBAL STATENODE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 5.10x", "ADDED BLOOKET BOT", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 5.00x", "ADDED FREEZE LEADERBOARD", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 4.90x", "ADDED CHANGE GAME CODE TO FLAPPY BLOOK", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 4.80x", "ADDED CLIENT SIDE FRENZY", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 4.70x", "REMOVED THE . FROM THE TITLE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 4.60x", "ADDED FLOOD ALERT BOX", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 4.50x", "FIXED SEVERAL BUGS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 4.40x", "FIXED THE DOUBLE ERROR (SORRY GUYS!)", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 4.30x", "FIXED SPELLING ERROR", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 4.20x", "ADDED USERSCRIPT IMAGE!!!", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 4.10x", "BUGS FIXED (AGAIN)", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 4.00x", "BUGS FIXED", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 3.90x", "FIXED A SPELLING ERROR", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 3.80x", "BUGS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 3.70x", "ATTEMPTED AN UPDATE BUT FAILED :(", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 3.60x", "DID SOME UI STUFF", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 3.50x", "FIXED A FEW BUS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 3.40x", "NEW CHEATS ADDED", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 3.30x", "FIXED SUBDOMAIN ISSUE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 3.20x", "ADDED SIMULATE UNLOCK, ALWAYS HACK, HOST ANY GAMEMODE, BYPASS FILTER, CRASH HOST, STEAL ALL PLAYERS GOLD AND BYPASS JOIN LIMIT", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 3.10x", "ADDED 7 NEW CHEATS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 3.00x", "BUG FIXED", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 2.90x", "ADDED BYPASS NAME FILTER", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 2.80x", "ADDED 3 NEW CHEATS TO CRYPTO AND GOLD QUEST", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 2.70x", "ADDED WELCOME MESSAGE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 2.60x", "ADDED GLOW EFFECT TO TITLE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 2.50x", "REVAMPED COLORS AND UI", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 2.40x", "STARTED WITH NEW COLOR SCHEME", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 2.30x", "FIXED USE ANY BLOOK", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 2.20x", "BUG FIXED", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
-  ["Version 2.10x", "STARTED NEW MENU", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"]
+  ["Version 1", "Release", "null"],
+  ["Version 2", "Uhh added the things?"],
+  ["Version 2.0", "Added the custom things in the gui"],
+ 
 ];
 
 
@@ -5252,21 +5213,21 @@ guiContent.appendChild(changelogPage);
         const copyrightTag = document.createElement("span");
         copyrightTag.className = classes.copyrightTag;
 
-        copyrightTag.innerText = `Copyright © ${new Date().getFullYear()} 05Konz`;
+        copyrightTag.innerText = `Copyright © ${new Date().getFullYear()} MemzCG`;
 
         const codingCredits = document.createElement("ul");
         codingCredits.className = classes.codingCredits;
 
-        codingCredits.append(createCredit("GUI Design + Creation", "05Konz+XullysFN"));
-        codingCredits.append(createCredit("Anti-Suspend", "CryptoDude3+XullysFN"));
-        codingCredits.append(createCredit("Blooket Cheats", 'gliz <i class="fas fa-long-arrow-alt-right"></i> Minesraft2 <i class="fas fa-long-arrow-alt-right"></i> 05Konz <i class="fas fa-long-arrow-alt-right"></i> XullysFN'));
+        codingCredits.append(createCredit("GUI Design", "MemzCG+Boykisserfemboypro"));
+        codingCredits.append(createCredit("The cheats", "its_yohanis"));
+        codingCredits.append(createCredit("Blooket Cheats", 'gliz <i class="fas fa-long-arrow-alt-right"></i> zeta web <i class="fas fa-long-arrow-alt-right"></i> Bro <i class="fas fa-long-arrow-alt-right"></i> MemzCG'));
 
         const creditLinks = document.createElement("ul");
         creditLinks.className = classes.creditLinks;
 
-        creditLinks.append(createCredit("Our Github", '<a target="_blank" href="https://github.com/XULL-XXX/X-GUI-BLOOKET-CLIENT">X-GUI CHEATS/GITHUB</a>'));
-        creditLinks.append(createCredit("Our Website *BETA*", '<a target="_blank" href="https://XULL-XXX.github.io">More Info/Website</a>'));
-        creditLinks.append(createCredit("Greasyfork", '<a target="_blank" href="https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket">Greasyfork page (Give Me Feedback!)</a>'));
+        creditLinks.append(createCredit("Our Team", '<a target="_blank" href="https://t.me/BlooketCheats</a>'));
+        creditLinks.append(createCredit("Gimkit Cheats", '<a target="_blank" href="https://t.me/Cat_Team_3</a>'));
+        creditLinks.append(createCredit("Aaryann Web", '<a target="_blank" href="https://sites.google.com/view/aaryann-web/home?pli=1&authuser=0"> PLS GO TO THIS WEB PLS (Follow him pls)</a>'));
 
         function parseTime(d) {
             const hour = d.getHours() % 12 == 0 ? 12 : d.getHours() % 12;
